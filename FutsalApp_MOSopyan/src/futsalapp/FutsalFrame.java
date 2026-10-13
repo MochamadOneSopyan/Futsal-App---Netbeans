@@ -31,7 +31,7 @@ public class FutsalFrame extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -189,17 +189,17 @@ public class FutsalFrame extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void comboTipeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboTipeActionPerformed
+    private void comboTipeActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
-    }//GEN-LAST:event_comboTipeActionPerformed
+    }                                         
 
-    private void comboStatusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboStatusActionPerformed
+    private void comboStatusActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_comboStatusActionPerformed
+    }                                           
 
-    private void buttonSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonSimpanActionPerformed
+    private void buttonSimpanActionPerformed(java.awt.event.ActionEvent evt) {                                             
         // TODO add your handling code here:
         // 1. Ambil data dari form
         String namaLapangan = textNama.getText().trim();
@@ -272,9 +272,9 @@ public class FutsalFrame extends javax.swing.JFrame {
         }
     
 
-    }//GEN-LAST:event_buttonSimpanActionPerformed
+    }                                            
 
-    private void buttonBatalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonBatalActionPerformed
+    private void buttonBatalActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
     textId.setText("");
     textNama.setText("");
@@ -282,9 +282,9 @@ public class FutsalFrame extends javax.swing.JFrame {
     comboTipe.setSelectedIndex(0);
     comboStatus.setSelectedIndex(0);
     textNama.requestFocus();
-    }//GEN-LAST:event_buttonBatalActionPerformed
+    }                                           
 
-    private void buttonEditActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonEditActionPerformed
+    private void buttonEditActionPerformed(java.awt.event.ActionEvent evt) {                                           
         // TODO add your handling code here:
     // Ambil data dari form
     String id = textId.getText().trim();
@@ -426,9 +426,9 @@ public class FutsalFrame extends javax.swing.JFrame {
                 "Error",
                 JOptionPane.ERROR_MESSAGE);
     }
-    }//GEN-LAST:event_buttonEditActionPerformed
+    }                                          
 
-    private void buttonHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonHapusActionPerformed
+    private void buttonHapusActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
           String id = textId.getText().trim();
 
@@ -514,11 +514,11 @@ public class FutsalFrame extends javax.swing.JFrame {
                 "Error",
                 JOptionPane.ERROR_MESSAGE);
     }
-    }//GEN-LAST:event_buttonHapusActionPerformed
+    }                                           
 
-    private void textIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textIdActionPerformed
+    private void textIdActionPerformed(java.awt.event.ActionEvent evt) {                                       
         // TODO add your handling code here:
-    }//GEN-LAST:event_textIdActionPerformed
+    }                                      
 
     /**
      * @param args the command line arguments
@@ -555,7 +555,7 @@ public class FutsalFrame extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JButton buttonBatal;
     private javax.swing.JButton buttonEdit;
     private javax.swing.JButton buttonHapus;
@@ -570,6 +570,6 @@ public class FutsalFrame extends javax.swing.JFrame {
     private javax.swing.JTextField textHarga;
     private javax.swing.JTextField textId;
     private javax.swing.JTextField textNama;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 
 }
